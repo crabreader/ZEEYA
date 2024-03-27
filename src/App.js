@@ -1,6 +1,7 @@
 import React from "react";
 import Login from './components/Login';
 import Navbar from './components/Navbar';
+import Layout from "./components/Layout";
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
       <div className="page">
         <Navbar />
-        <Login />
+        {/* <Login /> */}
+        <Layout />
       </div>
     </>
   );
